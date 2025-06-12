@@ -14,6 +14,14 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           <div className="space-y-8 lg:pr-8">
             <div className="space-y-6">
+              <div className="flex justify-center lg:justify-start mb-6">
+                <img 
+                  src="/lovable-uploads/4f7b3dd1-eb63-46ea-987a-8a7c61ea6e94.png" 
+                  alt="Atendesse.ia Logo" 
+                  className="h-12 w-auto opacity-90"
+                />
+              </div>
+              
               <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
                 Você no <span className="text-primary">serviço</span>,<br />
                 a gente no <span className="text-primary">zap</span>.
@@ -38,8 +46,7 @@ const HeroSection = () => {
                 onClick={openWhatsApp}
                 className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105"
               >
-                <MessageCircle className="mr-3 h-5 w-5" />
-                Falar com especialista agora
+                🤖 Crie seu atendente virtual agora
               </Button>
               
               <div className="flex items-center space-x-6 text-sm text-muted-foreground">

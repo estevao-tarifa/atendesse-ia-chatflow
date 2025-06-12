@@ -47,7 +47,7 @@ const SocialProofSection = () => {
             onClick={openWhatsApp}
             className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg font-semibold rounded-xl"
           >
-            Quero fazer parte também
+            💬 Quero fazer parte também
           </Button>
         </div>
 

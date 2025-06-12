@@ -10,6 +10,14 @@ const CTASection = () => {
   return (
     <section className="py-20 gradient-bg">
       <div className="max-w-4xl mx-auto px-4 text-center">
+        <div className="flex justify-center mb-6">
+          <img 
+            src="/lovable-uploads/4f7b3dd1-eb63-46ea-987a-8a7c61ea6e94.png" 
+            alt="Atendesse.ia Logo" 
+            className="h-16 w-auto opacity-90"
+          />
+        </div>
+        
         <h2 className="text-3xl lg:text-5xl font-bold text-primary-foreground mb-6">
           Automatize seu WhatsApp e veja a diferença em 24 horas
         </h2>
@@ -23,7 +31,7 @@ const CTASection = () => {
             className="bg-background text-primary hover:bg-background/90 px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105"
           >
             <MessageCircle className="mr-3 h-5 w-5" />
-            Começar agora mesmo
+            ⚡ Ative sua IA em 5 minutos
             <ArrowRight className="ml-3 h-5 w-5" />
           </Button>
           
