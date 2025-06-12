@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const SocialProofSection = () => {
   const openWhatsApp = () => {
-    window.open('https://wa.me/5547999990056?text=Vi os depoimentos e quero automatizar meu WhatsApp também', '_blank');
+    window.open('https://wa.me/5547999990056?text=Vi os depoimentos e quero automatizar meu WhatsApp também!', '_blank');
   };
 
   const testimonials = [

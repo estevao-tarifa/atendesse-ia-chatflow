@@ -25,7 +25,7 @@ const WhatsAppChat = () => {
     { text: "Oi! Quero automatizar meu WhatsApp", isUser: true },
     { text: "✨ Perfeito! Nossa IA atende seus clientes 24h, agenda horários e qualifica leads automaticamente. Qual seu segmento?", isUser: false },
     { text: "Sou dentista", isUser: true },
-    { text: "🦷 Excelente! Para dentistas, nossa IA agenda consultas, confirma horários e responde dúvidas básicas. Quer ver funcionando na prática?", isUser: false },
+    { text: "🦷 Excelente! Para dentistas, nossa IA agenda consultas, confirma horários e responde dúvidas básicas. Quer começar hoje?", isUser: false },
     { text: "Sim! Como funciona?", isUser: true },
     { text: "📱 É simples: conectamos no seu WhatsApp atual, configuramos as respostas para seu negócio e pronto! Seus clientes são atendidos mesmo quando você está ocupado.", isUser: false }
   ];
@@ -94,7 +94,7 @@ const WhatsAppChat = () => {
       <div className="p-4 bg-card border-t border-border">
         <div className="flex items-center justify-center">
           <div className="text-sm text-muted-foreground text-center">
-            💬 Demonstração automática
+            💬 Demonstração automática - sem interação
           </div>
         </div>
       </div>

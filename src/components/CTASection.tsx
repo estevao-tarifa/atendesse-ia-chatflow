@@ -23,7 +23,7 @@ const CTASection = () => {
             className="bg-background text-primary hover:bg-background/90 px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105"
           >
             <MessageCircle className="mr-3 h-5 w-5" />
-            Falar com especialista agora
+            Começar agora mesmo
             <ArrowRight className="ml-3 h-5 w-5" />
           </Button>
           

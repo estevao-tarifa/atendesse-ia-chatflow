@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const ProblemSolutionSection = () => {
   const openWhatsApp = () => {
-    window.open('https://wa.me/5547999990056?text=Quero saber mais sobre a automatização do WhatsApp', '_blank');
+    window.open('https://wa.me/5547999990056?text=Quero automatizar meu WhatsApp e começar hoje mesmo!', '_blank');
   };
 
   return (
@@ -37,7 +37,7 @@ const ProblemSolutionSection = () => {
             onClick={openWhatsApp}
             className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg font-semibold rounded-xl mt-6"
           >
-            Quero automatizar meu WhatsApp
+            Começar agora mesmo
           </Button>
         </div>
 
