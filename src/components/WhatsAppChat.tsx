@@ -1,4 +1,3 @@
-
 import { useState, useEffect, useRef } from "react";
 import { Phone, VideoIcon, MoreVertical } from "lucide-react";
 
@@ -35,7 +34,8 @@ const WhatsAppChat = () => {
   };
 
   useEffect(() => {
-    scrollToBottom();
+    // A linha abaixo estava causando a rolagem da página.
+    // scrollToBottom(); 
   }, [messages]);
 
   useEffect(() => {
