@@ -52,29 +52,6 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
-				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				},
-				// Brand colors for Atendesse.ia
-				brand: {
-					green: '#5ce1e6',
-					'green-dark': '#4bc5ca',
-					'green-light': '#6ee8ed',
-				},
-				whatsapp: {
-					green: '#25D366',
-					'green-dark': '#128C7E',
-					'green-light': '#DCF8C6',
-					gray: '#F0F0F0',
-					'gray-dark': '#E0E0E0'
 				}
 			},
 			borderRadius: {
@@ -98,38 +75,11 @@ export default {
 					to: {
 						height: '0'
 					}
-				},
-				'fade-in': {
-					'0%': {
-						opacity: '0',
-						transform: 'translateY(10px)'
-					},
-					'100%': {
-						opacity: '1',
-						transform: 'translateY(0)'
-					}
-				},
-				'slide-up': {
-					'0%': {
-						opacity: '0',
-						transform: 'translateY(20px)'
-					},
-					'100%': {
-						opacity: '1',
-						transform: 'translateY(0)'
-					}
-				},
-				'typing': {
-					'0%': { width: '0' },
-					'100%': { width: '100%' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out',
-				'fade-in': 'fade-in 0.6s ease-out',
-				'slide-up': 'slide-up 0.8s ease-out',
-				'typing': 'typing 2s steps(30, end) infinite'
+				'accordion-up': 'accordion-up 0.2s ease-out'
 			}
 		}
 	},
