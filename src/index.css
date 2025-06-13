@@ -5,6 +5,38 @@
 
 @layer base {
   :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3%;
+
+    --card: 0 0% 98%;
+    --card-foreground: 0 0% 3%;
+
+    --popover: 0 0% 98%;
+    --popover-foreground: 0 0% 3%;
+
+    --primary: 180 100% 40%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 0 0% 92%;
+    --secondary-foreground: 0 0% 3%;
+
+    --muted: 0 0% 92%;
+    --muted-foreground: 0 0% 40%;
+
+    --accent: 0 0% 92%;
+    --accent-foreground: 0 0% 3%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 85%;
+    --input: 0 0% 85%;
+    --ring: 180 100% 40%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
     --background: 0 0% 3%;
     --foreground: 0 0% 98%;
 
@@ -32,8 +64,6 @@
     --border: 0 0% 18%;
     --input: 0 0% 18%;
     --ring: 180 100% 60%;
-
-    --radius: 0.5rem;
   }
 }
 
